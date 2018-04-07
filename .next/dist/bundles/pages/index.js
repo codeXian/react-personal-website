@@ -79,14 +79,36 @@ module.exports =
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/Users/codexian/code/project/react-personal-website/pages/index.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_router__ = __webpack_require__("next/router");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_router__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_nprogress__ = __webpack_require__("nprogress");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_nprogress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_nprogress__);
+var _jsxFileName = '/Users/codexian/code/project/react-personal-website/pages/index.js';
+
+
+
+
+__WEBPACK_IMPORTED_MODULE_1_next_router___default.a.onRouteChangeStart = function () {
+  return __WEBPACK_IMPORTED_MODULE_2_nprogress___default.a.start();
+};
+__WEBPACK_IMPORTED_MODULE_1_next_router___default.a.onRouteChangeComplete = function () {
+  return __WEBPACK_IMPORTED_MODULE_2_nprogress___default.a.done();
+};
+__WEBPACK_IMPORTED_MODULE_1_next_router___default.a.onRouteChangeError = function () {
+  return __WEBPACK_IMPORTED_MODULE_2_nprogress___default.a.done();
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "/static/flower.jpeg", alt: "my image", __source: {
-      fileName: _jsxFileName,
-      lineNumber: 1
-    }
-  });
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'dvi',
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      }
+    },
+    '123'
+  );
 });
 
 /***/ }),
@@ -96,6 +118,20 @@ var _jsxFileName = "/Users/codexian/code/project/react-personal-website/pages/in
 
 module.exports = __webpack_require__("./pages/index.js");
 
+
+/***/ }),
+
+/***/ "next/router":
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "nprogress":
+/***/ (function(module, exports) {
+
+module.exports = require("nprogress");
 
 /***/ }),
 

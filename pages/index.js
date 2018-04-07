@@ -1,1 +1,8 @@
-export default () => <img src="/static/flower.jpeg" alt="my image" />;
+import Router from 'next/router';
+import NProgress from 'nprogress';
+
+Router.onRouteChangeStart = () => NProgress.start();
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
+
+export default () => <dvi>123</dvi>

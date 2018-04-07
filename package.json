@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/codeXian/react-personal-website#readme",
   "dependencies": {
+    "@zeit/next-sass": "^0.1.2",
     "cowsay-browser": "^1.1.8",
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^5.1.0",
+    "node-sass": "^4.8.3",
+    "nprogress": "^0.2.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   }
