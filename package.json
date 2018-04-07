@@ -1,0 +1,28 @@
+{
+  "name": "react-personal-website",
+  "version": "1.0.0",
+  "description": "react personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeXian/react-personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeXian/react-personal-website/issues"
+  },
+  "homepage": "https://github.com/codeXian/react-personal-website#readme",
+  "dependencies": {
+    "cowsay-browser": "^1.1.8",
+    "next": "^5.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}
